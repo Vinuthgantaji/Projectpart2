@@ -27,24 +27,36 @@ There is one  datasets which i will be using here.
 * The information about my S3 bucket's properties is displayed in the images above.<br>
 ![fig08](https://github.com/user-attachments/assets/6589bcc9-703e-4df8-bf89-36be3c5f5535)
 * The details of my S3 backup bucket's properties are displayed in the images above.
-* I am mirroring my S3 bucket with another bucket in order to configure the backup option.
+* I am mirroring my S3 bucket with another bucket in order to configure the backup option.<br>
 ![fig09](https://github.com/user-attachments/assets/2d3ec253-38ec-4f70-a579-40df3f8b686e)
 * The above image shows my replication information.
 ### Step 16: Data Governance
 * The term "data governance" describes the guidelines, norms, and procedures for handling and utilising data in a way that complies with legal requirements as well as organisational objectives.
 * It guarantees the security, integrity, and quality of data throughout its entire lifecycle.
-* To protect sensitive data, I am first creating a Trusted folder where I can store data that has been masked.
+* To protect sensitive data, I am first creating a Trusted folder where I can store data that has been masked.<br>
+![fig21](https://github.com/user-attachments/assets/6c650f50-5fbb-4551-8871-8c5ad64536bb)
 * The created Trusted folder can be seen in the image above.
-* I then develop an ETL to transform the accessible raw data, utilising ETL to locate and conceal sensitive data.
+* I then develop an ETL to transform the accessible raw data, utilising ETL to locate and conceal sensitive data.<br>
+![fig22](https://github.com/user-attachments/assets/d95f7c20-4a9f-46d3-985c-4d746621a46e)
 * The ETL pipeline for storing reliable information derived from raw data is depicted in the above image.
-* After that, I store the data that was obtained from the ETL in the trusted folder.
+* After that, I store the data that was obtained from the ETL in the trusted folder.<br>
+![fig23](https://github.com/user-attachments/assets/813bffd3-208a-4c95-9e46-97c36e85e30b)
 * The above image shows the resultant information stored as csv file in trusted folder.
 ### Step 17: Data Monitoring
 * To maintain data integrity, identify possible breaches, and assure compliance with governance policies, data monitoring entails continuously tracking data usage and access.
-* The "**AWS CloudWatch**" service will be used in this instance to build a dashboard tailored to our requirements.
-* 
+* The "**AWS CloudWatch**" service will be used in this instance to build a dashboard tailored to our requirements.<br>
+![fig35](https://github.com/user-attachments/assets/e04055c7-60cc-4f96-9752-0c2b72de2e99)
 * The AWS CloudWatch dashboard is seen in the above image.
-* 
-* After that, I use the "**AWS CloudTrail**" service to create a user activity trail so that I can monitor user behaviour for any abnormalities.
-* 
-* The cloud trail made to monitor user activity is depicted in the image above. The information about the cloud trail saved in S3 is shown in the image above.
+* After that, I use the "**AWS CloudTrail**" service to create a user activity trail so that I can monitor user behaviour for any abnormalities.<br>
+![fig36](https://github.com/user-attachments/assets/558fd026-1080-4655-971a-1f83e75960a9)
+* The cloud trail made to monitor user activity is depicted in the image above.<br>
+![fig37](https://github.com/user-attachments/assets/5c2cb236-d849-491d-8830-e325299e246a)
+* The information about the cloud trail saved in S3 is shown in the image above.
+## Tools and Technologies:
+* The lsit of Tools or technologies used are:
+  * AWS-S3
+  * AWS-Glue
+  * AWS-IAM
+  * AWS-KMS
+  * AWS-CloudWatch
+  * AWS-CloudTrail
