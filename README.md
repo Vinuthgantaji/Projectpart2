@@ -1,4 +1,4 @@
-<h1 align="center">Vinuth Project 1</h1>
+<h1 align="center">Vinuth Project 2</h1>
 
 ___
 
