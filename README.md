@@ -15,4 +15,4 @@ There is one  datasets which i will be using here.
   * [Cummulative-business-licences-2024.xlsx](https://github.com/user-attachments/files/17004732/Cummulative-business-licences-2024.xlsx)
 ## Methodology:
 * The process of DAP designing and implementation is complex.
-* This involves close to 13 different steps. I will be explaining on these steps in detail below:
+* This involves 4 different steps. I will be explaining on these steps in detail below:
